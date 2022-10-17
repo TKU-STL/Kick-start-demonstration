@@ -1,7 +1,7 @@
-print("Hello world")
+num = input("Please input a number: ")
 
-input("Press enter five")
-print("Hello world")
-
-if (1 == 1):
-    print("Hello world")
+# Check if the number is positive or negative
+if num > 0:
+    print("Positive number")
+elif num == 0:
+    print("Zero")
